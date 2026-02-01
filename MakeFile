@@ -1,7 +1,15 @@
+SHELL := /bin/bash 
+.PHONY: help
+
+help:
+	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS=":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
 clean: ## Clean the project using cargo
 	cargo clean
+
 build: ## build the project using cargo
 	cargo build
+	
 run: ## Run project using cargo
 	cargo run
 
