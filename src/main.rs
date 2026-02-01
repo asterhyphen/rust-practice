@@ -1,3 +1,12 @@
+//division fn with option return
+fn divide (a: i32, b: i32) -> Option<i32> {
+    if b == 0 {
+        None
+    } else {
+        Some(a / b)
+    }
+}
+
 fn main(){
     //mutables
     let mut msg="Name: Ahmed, Category: ";
@@ -30,5 +39,14 @@ fn main(){
       println!("The number is {:?}", num); //When None insert else cho statement parin
     } else {
         println!("No number provided.");
+    }
+
+    //division fn call 
+    let a = 10;
+    let b=20;
+    let result = divide(a, b);
+    match result {
+        Some(value) => println!("Result of {}/{} = {}", a, b, value),
+        None => println!("Error: Division by zero"),
     }
 }
