@@ -1,4 +1,5 @@
 pub fn run(mut age: i32) {
+    //Basically while true version of rust
     loop {
         println!("Currently {}", age);
         age += 1;
