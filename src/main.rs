@@ -1,6 +1,6 @@
 //local modules
-mod division;
 mod conditionals;
+mod division;
 mod loops;
 mod options;
 mod variables;
