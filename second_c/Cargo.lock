@@ -41,10 +41,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustp"
-version = "1.0.0"
-
-[[package]]
 name = "second_c"
 version = "0.1.0"
 dependencies = [

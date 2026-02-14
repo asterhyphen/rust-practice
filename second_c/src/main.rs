@@ -21,7 +21,7 @@ fn main() {
         &graph,
         belem_tower,
         Some(lisbon_cathedral),
-        le | *e.weight(),
+        |e| *e.weight(),
     );
     if let Some(distance) = node_map.get(&lisbon_cathedral) {
         println!(
