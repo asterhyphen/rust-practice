@@ -11,7 +11,7 @@ cargo run --  --message "Ypp dy dro lexuob. Ofobi zobcyx pyb drowcovfoc" --decry
 */
 
 
-use caeser_cipher_cli::{decrypt, encrypt};
+use ciphers::{decrypt, encrypt};
 use clap::Parser;
 
 /// CLI tool to encrypt and decrypt messages using the caeser cipher

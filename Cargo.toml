@@ -7,5 +7,6 @@ edition = "2021"
 
 [workspace]
 members = [
-    "second_c"
+    "second_c",
+    "second_c/ciphers",
 ]
