@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 
 [workspace]
-members = [
+members = ["dsa",
     "second_c",
-    "second_c/ciphers", "terminal-ctf",
+    "second_c/ciphers", "terminal-ctf", "dsa"
 ]
