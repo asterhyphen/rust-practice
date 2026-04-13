@@ -1,5 +1,5 @@
 # Rust Practice Repo
-This repo is a part of my playground for testing random Rust code as part of my Rust learning journey.
+This repo is my Rust testing playground. It comprises of random Rust code.
 
 # Navigate to Src files
 -> [Coursera Course_1](/src/) </br>
