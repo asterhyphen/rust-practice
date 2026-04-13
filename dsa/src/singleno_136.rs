@@ -31,12 +31,6 @@ impl Solution {
             ----------------
             Since duplicates appear twice,
             each pair removes itself.
-
-            Time Complexity:
-            O(n) → one loop through array
-
-            Space Complexity:
-            O(1) → only one variable used
         */
 
         // result starts at 0
