@@ -4,5 +4,4 @@ This repo is my Rust testing playground. It comprises of random Rust code.
 # Navigate to Src files
 -> [Coursera Course_1](/src/) </br>
 -> [Coursera Course_2](/second_c/src/)</br>
--> [Terminal_For_CTF](/terminal-ctf/src/)</br>
 -> [LeetCode_DSA](/dsa/src/)</br>
