@@ -1,7 +1,7 @@
 //local mods
-mod shortest_path;
-mod cli_fruitsal;
 mod booyer_moore;
+mod cli_fruitsal;
+mod shortest_path;
 fn main() {
     shortest_path::shortest_path();
     cli_fruitsal::cli_fruitsal();

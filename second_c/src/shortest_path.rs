@@ -17,12 +17,7 @@ pub fn shortest_path() {
         (ix_factory, commerce_square, 5), // The distance from LX Factory to Commerce Square is 5 km
         (commerce_square, lisbon_cathedral, 1), // The distance from Commerce Square to Lisbon Cathedral is 1 km
     ]);
-    let node_map = dijkstra(
-        &graph,
-        belem_tower,
-        Some(lisbon_cathedral),
-        |e| *e.weight(),
-    );
+    let node_map = dijkstra(&graph, belem_tower, Some(lisbon_cathedral), |e| *e.weight());
     if let Some(distance) = node_map.get(&lisbon_cathedral) {
         println!(
             "The shortest distance from Belem Tower to Lisbon Cathedral is {} km",

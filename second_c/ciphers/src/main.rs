@@ -10,7 +10,6 @@ cargo run --  --message "Ypp dy dro lexuob. Ofobi zobcyx pyb drowcovfoc" --decry
 
 */
 
-
 use ciphers::{decrypt, encrypt};
 use clap::Parser;
 
