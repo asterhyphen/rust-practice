@@ -3,7 +3,7 @@ use std::collections::HashSet;
 impl Solution {
     pub fn intersection(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
         
-        // Convert nums1 into a HashSet
+        // Convert nums1 into a HashSet/
         // This removes duplicate values automatically
         let set1: HashSet<i32> = nums1.into_iter().collect();
 
